@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Hangman</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+    
+</head>
+
+<body>
+    <div class="jumbotron jumbotron-fluid text-center">
+        <div class="container">
+            <h1 class="display-4"><span id="border">BBQ Hangman Game</span></h1>
+            <br>
+            <p class="lead"><button id="starter" onclick="startGame()">Press for New Word</button></p>
+        </div>
+    </div>
+<div class="container">
+    <div class="row">
+        
+
+        
+        <div class="col-md-12 text-center">
+    <h1><span id="food">Find the BBQ Food Words</span></h1>
+        
+            <p>Guesses to go:
+                <span id="guesses-left"></span>
+            </p>
+            <p>Wrong guesses:
+                <span id="wrong-guesses"></span>
+            </p>
+            <p>Player Wins:
+                <span id="win-counter"></span>
+            </p>
+            <p>Player Losses:
+                <span id="loss-counter"></span>
+            </p>
+            <h3 id="word-blank"></h3>
+            <div class="col-md-3">
+                
+            
+            
+
+            
+            </container>
+    </div>
+</div>
+<script src="assets/javascript/game.js"></script>
+</body>
+
+</html>

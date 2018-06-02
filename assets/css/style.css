@@ -1,0 +1,55 @@
+
+body {
+    background-image: url(../images/organic/organic-tiles.png);
+}
+.jumbotron {
+    background-image: url(../images/food-eating-potatoes-beer-8313.jpg);
+
+}
+p {
+    color: darkcyan;
+    font-size: 25px;
+}
+#food {
+    /* font-size: 60px; */
+    font-weight: bold;
+    color: red;
+    text-shadow: 2px 2px black;
+}
+.display-4 {
+    font-weight: bolder;
+    text-shadow: 4px;
+    color: rgb(10, 61, 10);
+    font-family: cursive;
+    text-shadow: 2px 2px red;
+    
+}
+
+#border {
+    background-color: antiquewhite;
+    border: 2px solid rgb(10, 61, 10);
+    padding: 15px;
+    
+}
+#starter {
+    color: antiquewhite;
+    background-color: olive;
+    
+}
+#starter:hover {
+    background-color: azure;
+    color: olive;
+    border: rosybrown;
+}
+#wrong-guesses {
+    color: rgb(247, 10, 10);
+}
+#loss-counter {
+    color: rgb(247, 10, 10);
+}
+#win-counter {
+    color: goldenrod;
+}
+#word-blank {
+    color: darkcyan;
+}
