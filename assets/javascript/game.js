@@ -12,7 +12,6 @@ var blanksSuccess = [];
 
 //functions
 
-
 function startGame() {
     wrongGuess = [];
     guessesLeft = 10;
@@ -87,6 +86,7 @@ startGame();
 document.onkeyup = function(event) {
     var letterGuessed = String.fromCharCode(event.keyCode).toLowerCase();
     checkLetters(letterGuessed)
+    
     finishGame();
 }
 
